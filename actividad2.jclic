@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="actividad2" version="0.1.3">
+ <settings>
+  <title>actividad2</title>
+  <revision description="created" date="12/15/22" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="actividad2" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="actividad2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Une la respuesta correcta</p>
+    </cell>
+    <cell type="final">
+     <style />
+     <p>Excelente, actividad superada</p>
+    </cell>
+    <cell avoidOverlapping="true" type="finalError">
+     <style />
+     <p>Tranquilo, vuelve a intentarlo</p>
+    </cell>
+   </messages>
+   <settings margin="0" maxActions="7" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xFF0000">
+     <gradient source="0xFF0000" dest="0xFFFFFF" angle="126" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="350.0" cellHeight="100.0" border="true" id="primary">
+    <style>
+     <font family="Yu Gothic UI Semilight" size="17" bold="true" />
+     <color background="0xCCCCCC" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>La Ingeniería de Sistemas abarca diversos campos, como la:</p>
+    </cell>
+    <cell>
+     <p>La Ingeniería de sistemas es una disciplina de la Ingeniería que se encarga de:</p>
+    </cell>
+    <cell>
+     <p>Muchas las empresas que funcionan, operativa y logísticamente, gracias a la: </p>
+    </cell>
+    <cell>
+     <p>La palabra sistema surge del latín:</p>
+    </cell>
+   </cells>
+   <cells rows="4" cols="1" cellWidth="120.0" cellHeight="100.0" border="true" id="secondary">
+    <style>
+     <font family="Yu Gothic UI Semilight" size="17" bold="true" />
+     <color background="0x999999" />
+    </style>
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <p>Programación</p>
+    </cell>
+    <cell>
+     <p>desarrollar, mejorar e implementar sistemas informáticos.</p>
+    </cell>
+    <cell>
+     <p>tecnología.</p>
+    </cell>
+    <cell>
+     <p>systēma</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag />
+</JClicProject>
+
